@@ -36,6 +36,86 @@ body {
     object-position: center; /* Centraliza a imagem no banner */
 }
 
+/********* Container geral do formulário ************/
+/* Container principal do formulário */
+.form-container {
+    max-width: 100%;
+    margin: 20px 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Botões para escolha do tipo de passagem */
+.botoes-form-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.botoes-form-container .btn {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color:  #2D3857;
+    transition: background-color 0.3s;
+}
+
+.botoes-form-container .btn:hover {
+    background-color: #009EB6 ; 
+}
+
+/* Estilo do formulário */
+.form form {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebra de linha caso necessário */
+    gap: 15px;
+    justify-content: space-between;
+}
+
+/* Cada campo do formulário */
+.form-group {
+    flex: 1; /* Toma espaço proporcionalmente */
+    min-width: 170px; /* Largura mínima */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Botão de envio */
+.btn-primary {
+    padding: 10px 20px;
+    background-color:  #2D3857;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #009EB6;
+}
+
 /************** Estilo geral do footer **************/
 #main-footer {
     background-color: #f4f4f4; /* Cor de fundo suave */

@@ -51,7 +51,52 @@
                 <img src="/images/banner-viagem-home.png" alt="imagem banner">
             </header>
 
-            
+            <div class="form-container">
+                <div class="botoes-form-container">
+                    <button class="btn btn-outline-dark" id="ida-volta-btn">Ida e Volta</button>
+                    <button class="btn btn-outline-dark" id="somente-ida-btn">Somente Ida</button>
+                </div>
+                <div class="form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="origem">Origem:</label>
+                            <input type="text" id="origem" name="origem" placeholder="Origem" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="destino">Destino:</label>
+                            <input type="text" id="destino" name="destino" placeholder="Destino" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="data-ida">Data de Ida:</label>
+                            <input type="date" id="data-ida" name="data-ida" required>
+                        </div>
+                        <div class="form-group" id="data-volta-group">
+                            <label for="data-volta">Data de Volta:</label>
+                            <input type="date" id="data-volta" name="data-volta">
+                        </div>
+                        <div class="form-group">
+                            <label for="passageiros">Número de Passageiros:</label>
+                            <select id="passageiros" name="passageiros" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="classe">Classe:</label>
+                            <select id="classe" name="classe" required>
+                                <option value="todas">Todas as Classes</option>
+                                <option value="economia-premium">Economia & Premium</option>
+                                <option value="executiva-premium">Executiva & Premium</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Buscar Passagens</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
         </div>
 
