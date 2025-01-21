@@ -1,0 +1,99 @@
+/******** Paleta de Cores: #008DA3, #2D3857, #009EB6 *******/
+
+/************ Estilo da Página ************/
+* {
+	/* font-family: 'Times New Roman', Arial, Helvetica, sans-serif;  */
+    font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #F8F9FA; /* cor suave de fundo */
+}
+
+/*************** Estilo Menu ***************/
+.logo{
+    width: 40px; /* Define o tamanho da imagem logo */
+    vertical-align: middle;
+    /* transform: translateY(-2px); */
+}
+.container-fluid .btn {
+    color: white;
+    background-color: #2D3857;
+}
+
+/*********** Estilo header - Banner ************/
+#imageCarousel {
+    width: 100%; /* O banner ocupa toda a largura da tela */
+    height: 60vh; /* Define a altura proporcional à tela (60% da altura da janela) */
+    overflow: hidden; /* Esconde partes que saem do container */
+    position: relative; /* Permite adicionar elementos posicionados no banner */
+}
+
+#imageCarousel img {
+    width: 100%; /* A imagem ajusta-se à largura do container */
+    height: 100%; /* Ajusta-se à altura do container */
+    object-fit: cover; /* Faz com que a imagem preencha o espaço sem distorções */
+    object-position: center; /* Centraliza a imagem no banner */
+}
+
+/************** Estilo geral do footer **************/
+#main-footer {
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    padding: 20px;
+    /* text-align: left; */
+    color: #2D3857;
+    border-top: 2px solid #ddd;
+}
+
+#main-footer h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #008DA3;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer-paymentOptions {
+    display: flex;
+    justify-content: center; /* Mantém lado a lado */
+    gap: 10%; /* Espaçamento entre as seções */
+    flex-wrap: wrap; /* Permite quebra em telas menores */
+}
+
+.footer-paymentOptions section {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.images-item {
+    display: inline-block; /* Imagens lado a lado */
+    margin: 10px;          /* Margem entre itens */
+}
+
+.images-item img {
+    width: 50px; /* Tamanho padrão das imagens */
+    height: auto;
+    /* filter: grayscale(100%); 
+    transition: filter 0.3s ease;  */
+}
+
+/* Hover nas imagens */
+/* .images-item img:hover {
+    filter: none; /* Remove o efeito de tons de cinza 
+} */
+
+/* Linha separadora */
+#main-footer hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Texto de créditos */
+#main-footer section p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+    text-align: center;
+}
