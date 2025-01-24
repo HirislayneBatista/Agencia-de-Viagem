@@ -12,50 +12,56 @@
     </head>
     
     <body>
-        <!-- Menu de Navegação -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo" src="/images/icons8-casa.svg" alt="imagem de home">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Passagens</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pacotes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Hospedagem</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Seguro Viagem</a>
-                        </li>
-                    </ul>
-
-                    <button class="btn btn-outline-dark" type="submit"> 
-                        <a class="nav-link" href="login.html">Entre</a>
+        <header>
+            <!-- Menu de Navegação -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo" src="/images/icons8-casa.svg" alt="imagem de home">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Passagens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Destinos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pacotes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hospedagem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Seguro Viagem</a>
+                            </li>
+                        </ul>
+
+                        <button class="btn btn-outline-dark" type="submit"> 
+                            <a class="nav-link" href="login.html">Entre</a>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!--Banner-->
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/banner-viagem-home.png" alt="imagem banner" class="d-block w-100">
+                </div>
                 </div>
             </div>
-        </nav>
-
-        <!-- Conteudo principal do site -->
-        <div class="main-container">
-            <!-- Banner / Carrosel de Imagens -->
-            <header id="imageCarousel">
-                <img src="/images/banner-viagem-home.png" alt="imagem banner">
-            </header>
-
+            
+            <!-- Formulario -->
             <div class="form-container">
-                <div class="botoes-form-container">
+                <div class="btn-form-container">
                     <button class="btn btn-outline-dark" id="ida-volta-btn">Ida e Volta</button>
                     <button class="btn btn-outline-dark" id="somente-ida-btn">Somente Ida</button>
                 </div>
@@ -100,49 +106,58 @@
                     <button type="submit" class="btn btn-primary">Buscar Passagens</button>
                 </div>
             </div>
-        </div>
-
-
-        <!-- Rodapé-->
-        <footer id="main-footer">
-            <section>
+        </main>
+            
+        <footer id="footer">
+            <section id="payment-methods" class="text-center py-3">
                 <h6>Formas de pagamentos</h6>
-                <div class="footer-paymentOptions">
-                    <div>
-                        <section>Cartão de crédito</section>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/GhostVisa.svg" alt="Visa">
-                        </div>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/GhostMastercard.svg" alt="Mastercard">
-                        </div>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/GhostElo.svg" alt="Elo">
-                        </div>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/GhostDiners.svg" alt="Diners">
-                        </div>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/GhostHipercard.svg" alt="Hipercard">
-                        </div>
+                <div class="row">
+                    <!-- Coluna 1 -->
+                    <div class="col-md-6 border-end">
+                        <section>
+                            <p class="titles-footer">Cartão de crédito</p>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="images-item">
+                                    <img src="/images/logos-pay/GhostVisa.svg" alt="Visa">
+                                </div>
+                                <div class="images-item">
+                                    <img src="/images/logos-pay/GhostMastercard.svg" alt="Mastercard">
+                                </div>
+                                <div class="images-item">
+                                    <img src="/images/logos-pay/GhostElo.svg" alt="Elo">
+                                </div>
+                                <div class="images-item">
+                                    <img src="/images/logos-pay/GhostDiners.svg" alt="Diners">
+                                </div>
+                                <div class="images-item">
+                                    <img src="/images/logos-pay/GhostHipercard.svg" alt="Hipercard">
+                                </div>
+                            </div>
+                        </section>
                     </div>
-                    <div>
-                        <section>Outras formas</section>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/pix.svg" alt="Pix">
-                        </div>
-                        <div class="images-item">
-                            <img src="/images/logos-pay/nuPay.svg" alt="Nubank">
-                        </div>
+                    
+                    <!-- Coluna 2 -->
+                    <div class="col-md-6 d-flex flex-column align-items-center">
+                        <section>
+                            <p class="titles-footer">Outras formas</p>
+                            <div class="images-item">
+                                <img src="/images/logos-pay/pix.svg" alt="Pix" id="img-outras-formas">
+                            </div>
+                            <div class="images-item">
+                                <img src="/images/logos-pay/nuPay.svg" alt="Nubank" id="img-outras-formas">
+                            </div>
+                            
+                        </section>
                     </div>
                 </div>
             </section>
             <hr>
-            <section>
+            <section id="credentials" class="text-center py-2">
                 <p>Desenvolvido por Hirislayne Batista | Projeto fictício para Recode Pro AI</p>
                 <p>HBRS Studio&copy 2025 - todos os direitos reservados</p>
             </section>
         </footer>
+        
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
