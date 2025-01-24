@@ -43,6 +43,20 @@
     }
 }
 
+/* Cards */
+@media (max-width: 768px) {
+    #title-packages {
+        font-size: 1.5rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
 
 /* Rodapé*/
 @media (max-width: 768px) {

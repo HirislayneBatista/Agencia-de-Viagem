@@ -27,6 +27,13 @@ body {
     background-color: #009EB6;
 }
 
+#container-form {
+    background-color: #ddd;
+    border: 1px solid #afadad;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /******* Sessão de cards ******/
 .primeiroPacote, .segundoPacote, .terceiroPacote, .quartoPacote {
     background-color: #f6f6f6;
@@ -56,13 +63,13 @@ body {
 }
 
 /************** Estilo geral do footer **************/
-#footer {
+footer {
     background-color: #f4f4f4; /* Cor de fundo suave */
     padding: 20px;
     border-top: 2px solid #ddd;
 }
 
-#footer h6 {
+footer h6 {
     font-size: 18px;
     margin-bottom: 15px;
     color: #2D3857;
@@ -84,7 +91,7 @@ body {
 
 /* Estilo para as imagens */
 .images-item {
-    /*margin: 10px; /* Espaçamento entre imagens */
+    margin: 10px; /* Espaçamento entre imagens */
 }
 
 .images-item img {

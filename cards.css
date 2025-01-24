@@ -1,0 +1,71 @@
+/* Estilos gerais da seção de pacotes */
+#packages-session {
+    background-color: #f9f9f9;
+}
+
+#title-packages {
+    font-size: 2rem;
+    color: #008DA3;
+    font-weight: bold;
+}
+
+/* Estilizando os cards */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #2D3857;
+    font-weight: bold;
+}
+
+.text-muted {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.text-primary {
+    font-size: 1rem;
+    color: #0056b3;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.card-title-package {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    /* margin: 2px; */
+}
+
+.destaque {
+    position: absolute;
+    top: 170px;
+    padding: 0 16px;
+    /* text-align: center; */
+    color: #FFF;
+    background: #2D3857;
+    border-radius: 100px;
+    justify-content: center;
+}
