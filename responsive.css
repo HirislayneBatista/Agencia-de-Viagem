@@ -45,7 +45,8 @@
 
 /* Cards */
 @media (max-width: 768px) {
-    #title-packages {
+    #title-packages, 
+    #title-destinations {
         font-size: 1.5rem;
     }
 

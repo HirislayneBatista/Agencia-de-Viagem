@@ -1,9 +1,11 @@
 /* Estilos gerais da seção de pacotes */
-#packages-session {
+#packages-session,
+#destinations-session {
     background-color: #f9f9f9;
 }
 
-#title-packages {
+#title-packages,
+#title-destinations {
     font-size: 2rem;
     color: #008DA3;
     font-weight: bold;
@@ -52,7 +54,8 @@
     color: #dc3545;
 }
 
-.card-title-package {
+.card-title-package,
+.card-title-destination {
     font-size: 13px;
     color: white;
     font-weight: bold;
