@@ -64,8 +64,8 @@
             <div class="container py-4 mt-4 mb-4" id="container-form">
                 <div class="row justify-content-center mb-4">
                     <div class="col-auto">
-                        <button class="btn btn-outline-dark">Ida e Volta</button>
-                        <button class="btn btn-outline-dark">Somente Ida</button>
+                        <button class="btn btn-outline-dark" id="ida-volta-btn">Ida e Volta</button>
+                        <button class="btn btn-outline-dark" id="somente-ida-btn">Somente Ida</button>
                     </div>
                 </div>
                 <form action="#" method="POST" class="row g-3">
@@ -83,25 +83,25 @@
                         <input type="date" id="data-ida" name="data-ida" class="form-control" required>
                     </div>
                     <!-- Segunda linha -->
-                    <div class="col-md-4">
+                    <div class="col-md-4" id="data-volta-container">
                         <label for="data-volta" class="form-label">Data de Volta:</label>
                         <input type="date" id="data-volta" name="data-volta" class="form-control">
                     </div>
                     <div class="col-md-4">
                         <label for="passageiros" class="form-label">Número de Passageiros:</label>
                         <select id="passageiros" name="passageiros" class="form-select" required>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4+</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4+</option>
                         </select>
                     </div>
                     <div class="col-md-4">
                         <label for="classe" class="form-label">Classe:</label>
                         <select id="classe" name="classe" class="form-select" required>
-                        <option value="todas">Todas as Classes</option>
-                        <option value="economia-premium">Economia & Premium</option>
-                        <option value="executiva-premium">Executiva & Premium</option>
+                            <option value="todas">Todas as Classes</option>
+                            <option value="economia-premium">Economia & Premium</option>
+                            <option value="executiva-premium">Executiva & Premium</option>
                         </select>
                     </div>
                     <!-- Terceira linha -->
@@ -112,7 +112,7 @@
             </div>
 
             <!-- Seção de destinos -->
-            <section id="destinations-session" class="container py-3">
+            <section id="destinations-session" class="container py-3 mt-5">
                 <div class="row">
                     <!-- Coluna da esquerda - Título -->
                     <div class="col-md-6 d-flex align-items-center justify-content-center">
@@ -205,6 +205,14 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Próximo</span>
                             </button>
+
+                            <!-- Botão direcionado a link -->
+                            <!-- <div class="d-flex justify-content-end mt-3">
+                                <a href="#" class="btn btn-primary">Mais</a>
+                            </div> -->
+                            <div class="d-flex justify-content-end mt-3">
+                                <a href="#" class="text-decoration-underline text-dark">Mais</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,7 +221,7 @@
 
             <!-- Cards - Seção de pacotes -->
             <section id="packages-session" class="container py-3">
-                <h2 id="title-packages" class="text-center mt-3 mb-4">Pacotes de Viagem</h2>
+                <h2 id="title-packages" class="text-center mt-5 mb-4">Pacotes de Viagem</h2>
                 <div id="packages" class="row row-cols-1 row-cols-md-4 row-cols-lg-4 g-3">
                     <!-- Card 1 -->
                     <article>
@@ -340,20 +348,12 @@
                         </a>
                     </article>
                 </div>
-            </section>
-
-
-            <!-- Seção de destinos
-            <section id="destinations-session">
-                <h2 id="title-destinations">Destinos</h2>
-                <div id="destinations">
-                    <a href="" class="styles-destinations"></a>
+                <!-- Botão direcionado a link -->
+                <div class="d-flex justify-content-end mt-3">
+                    <a href="#" class="text-decoration-underline text-dark">Mais</a>
                 </div>
-            </section> -->
-
-            
-
-
+            </section>
+         
         </main>
 
         <footer class="container-fluid mt-4">

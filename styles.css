@@ -27,9 +27,10 @@ body {
     background-color: #009EB6;
 }
 
+/******** Container do formulario ********/
 #container-form {
-    background-color: #ddd;
-    border: 1px solid #afadad;
+    background-color: #009eb613;
+    border: 1px solid #afadad3a;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -47,8 +48,7 @@ body {
 }
 
 #pacotes {
-    display: flex
-;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
