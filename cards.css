@@ -9,6 +9,7 @@
     font-size: 2rem;
     color: #008DA3;
     font-weight: bold;
+    text-shadow: 1px 1px 2px #2D3857;
 }
 
 /* Estilizando os cards */

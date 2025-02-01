@@ -16,6 +16,23 @@ body {
     /* transform: translateY(-2px); */
 }
 
+#titulo-pacotes {
+    font-family: "Montserrat", serif;
+    padding: 0.25em;
+    margin-left: 70px;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#title-home {
+    font-size: 36px;
+    color: #2D3857;
+    font-weight: bold;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    text-shadow: 1px 1px 4px #009EB6;
+}
+
+
 /*********** Botões - cores ***************/
 .btn{
     color: white;
@@ -33,33 +50,6 @@ body {
     border: 1px solid #afadad3a;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/******* Sessão de cards ******/
-.primeiroPacote, .segundoPacote, .terceiroPacote, .quartoPacote {
-    background-color: #f6f6f6;
-    width: auto;
-    height: 550px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.216);
-    justify-content: space-around;
-    margin-bottom: 3.5em;
-    margin-top: 0.5em;
-}
-
-#pacotes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-#titulo-pacotes {
-    font-family: "Montserrat", serif;
-    padding: 0.25em;
-    margin-left: 70px;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
 }
 
 /************** Estilo geral do footer **************/
