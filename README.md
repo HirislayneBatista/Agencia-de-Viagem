@@ -22,7 +22,7 @@ A aplicação oferece funcionalidades voltadas para a experiencia do usuário na
 
 🔹 Banco de Dados: MySQL (modelado no BrModelo)
 
-## 📌 Modelagem de Banco de Dados
+## 📌 Modelagem do Banco de Dados
 O banco de dados foi modelado com base no BRModelo, utilizando três níveis de abstração:
 
 🔹 Conceitual → Representação das entidades e seus relacionamentos principais.
