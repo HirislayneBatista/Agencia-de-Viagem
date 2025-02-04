@@ -19,7 +19,7 @@ CREATE TABLE Passagem (
 	Data_Volta DATETIME,
 	ID_Cliente INTEGER,
 	ID_Voo INTEGER,
-    FOREIGN KEY(ID_Voo) REFERENCES Voo (ID_Voo),
+    	FOREIGN KEY(ID_Voo) REFERENCES Voo (ID_Voo),
 	FOREIGN KEY(ID_Cliente) REFERENCES Cliente (ID_Cliente)
 );
 
