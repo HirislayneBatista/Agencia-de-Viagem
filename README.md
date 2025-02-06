@@ -22,6 +22,8 @@ A aplicação oferece funcionalidades voltadas para a experiencia do usuário na
 
 🔹 Banco de Dados: MySQL (modelado no BrModelo)
 
+____
+
 ## 📌 Modelagem do Banco de Dados
 O banco de dados foi modelado com base no BRModelo, utilizando três níveis de abstração:
 
@@ -44,6 +46,7 @@ Sendo assim, com base no formulário de busca de passagens, foi modelado um banc
 
 *O modelo segue o esquema 1:N entre Cliente e Passagem, N:1 entre Passagem e Voo, e 1:N entre Voo e Assentos disponíveis.*
 
+___
 ## 📌 Próximos Passos
 🔹 Implementação de funcionalidades dinâmicas com JavaScript e backend.
 
@@ -51,8 +54,9 @@ Sendo assim, com base no formulário de busca de passagens, foi modelado um banc
 
 🔹 Desenvolvimento da lógica de reserva e autenticação de usuários.
 
-## 📌 Acesse o sistema
-    *http*
+___
+
+#### Link de Acesso ao Site: *https:*
 
 #
 *Desenvolvido por: Hirislayne Batista.*
