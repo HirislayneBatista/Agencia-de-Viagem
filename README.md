@@ -1,4 +1,4 @@
-# ExploraMundo | Descubra o Inexplorado - Agência de Viagem
+# ExploraMundo - Agência de Viagem
 
 ## 📌 Sobre o Projeto
 Este projeto consiste na simulação do site inicial de uma agência de viagens fictícia, com foco na estruturação da interface e no planejamento do banco de dados.
