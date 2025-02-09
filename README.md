@@ -10,18 +10,15 @@ A aplicação oferece funcionalidades voltadas para a experiencia do usuário na
 
 🔹 Pesquisa de voos por origem, destino e data
 
-🔹 Informações sobre hospedagem
-
-🔹 Opções adicionais: Seguro viagem
-
-
-*Nesta fase inicial, ainda não foram totalmente implementadas funcionalidades dinâmicas ou sistemas interativos.*
+🔹 Informações sobre hospedagem e Seguro Viagem
 
 ## 📌 Tecnologias Utilizadas
 🔹 Frontend: HTML, CSS, Bootstrap, JavaScript (fase inicial)
 
 🔹 Banco de Dados: MySQL (modelado no BrModelo)
 
+
+*Nesta fase inicial, ainda não foram totalmente implementadas funcionalidades dinâmicas ou sistemas interativos.*
 ____
 
 ## 📌 Modelagem do Banco de Dados
@@ -33,7 +30,7 @@ O banco de dados foi modelado com base no BRModelo, utilizando três níveis de 
 
 🔹 Físico → Implementação final, incluindo a geração do script SQL para criação das tabelas.
 
-Sendo assim, com base no formulário de busca de passagens, foi modelado um banco de dados com as seguintes tabelas principais:
+Sendo assim, com base no formulário de busca de passagens, foi modelado um banco de dados com as seguintes entidades:
 
 🔹 Cliente → Realiza a compra de passagens.
 
